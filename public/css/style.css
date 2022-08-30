@@ -78,8 +78,10 @@ main.main-content{
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.5);  
+    box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.5), inset 4px 3px 15px rgba(0, 0, 0, 0.5);  
     gap: 10px;  
+    overflow-y: auto;
+    /* outline: 2px solid rgb(100, 98, 98); */
 }
 
 main.main-content .weekDay{
