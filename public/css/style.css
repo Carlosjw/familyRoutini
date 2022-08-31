@@ -13,7 +13,7 @@
     box-sizing: border-box;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 body{
@@ -102,18 +102,18 @@ main.main-content .weekDay:last-child{
     border-radius: 0 0 10px 10px;
 }
 
-::-webkit-scrollbar {
+main::-webkit-scrollbar {
     width: 14px;
 }
 
-::-webkit-scrollbar-track {
+main::-webkit-scrollbar-track {
     background: silver;
     border-radius: 0 100px 100px 0;
     box-shadow: inset 2px 3px 6px rgba(0, 0, 0, 0.5);
 
 }
 
-::-webkit-scrollbar-thumb {
+main::-webkit-scrollbar-thumb {
     background: silver;
     border-radius: 0 100px 100px 0;
     box-shadow: inset 2px 3px 6px rgba(0, 0, 0, 0.5);
